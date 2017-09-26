@@ -21,7 +21,7 @@ function [A, err]=RAS(A0, u, v)
     
 %     if abs(sum(u)-sum(v))>eps
 %        err=1;
-%        disp('Different sums')
+%        disp('Different sums') 
 %        return
 %     end
     
