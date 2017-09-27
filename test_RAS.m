@@ -12,8 +12,9 @@ u=[75; 82; 125];
 v=[85, 150, 45];
 
 % вызовем наш RAS
-A=GRAS(A0, u, v);
+%A=GRAS(A0, u, v);
 %A=MyGRAS_1(A0, u, v);
+A=INSD(A0, u, v);
 
 %err
 A
