@@ -17,6 +17,12 @@ v=[85, 150, 45];
 A=INSD(A0, u, v);
 
 %err
-A
-sum(A, 1)
-sum(A, 2)
+%A
+%sum(A, 1)
+%sum(A, 2)
+
+MAPE(A, A0)
+WAPE(A, A0)
+SWAD(A, A0)
+PsiStat(A, A0)
+RSQ(A, A0)
