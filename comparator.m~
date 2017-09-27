@@ -1,0 +1,5 @@
+A0=xlsread('ukrstat2014.xlsx', 'Sheet1', 'B6:T24');
+At=xlsread('ukrstat2015.xlsx', 'Лист1', 'B6:T24');
+u=xlsread('ukrstat2015.xlsx', 'Лист1', 'U6:U24');
+v=xlsread('ukrstat2015.xlsx', 'Лист1', 'B25:T25');
+

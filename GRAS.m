@@ -34,7 +34,7 @@ function A=GRAS(A0, u, v)
        s1(pr == 0) = - nr(pr==0) ./ v(pr==0);
        s1(pr>0) = (v(pr>0)+sqrt(v(pr>0).*v(pr>0)+4*pr(pr>0).*nr(pr>0))) ./ (2*pr(pr>0));
        
-       error1=max(abs(s1-s));
+       error1=max(abs(s1-s)./s);
        error2=max(abs(r1-r));
        disp(num2str([i, error1, error2]));
        
